@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ManagerActivityProject</string>
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_add">Thêm hoạt động</string>
+    <string name="nav_manager">Sinh viên đăng kí hoạt động</string>
+    <string name="nav_chart">Thống kê</string>
+    <string name="nav_account">Quản lý tài khoản</string>
+    <string name="nav_my_profile">Tài khoản</string>
+    <string name="nav_changer_password">Đổi mật khẩu</string>
+    <string name="nav_logout">Đăng xuất</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="action_search">Tìm kiếm</string>
+
+
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginStart="8dp"
+    app:cardCornerRadius="15dp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--
+          androidx.cardview.widget.CardView
+          <com.makeramen.roundedimageview.RoundedImageView
+                   android:id="@+id/imgManagerActivity"
+                   android:layout_width="100dp"
+                   android:layout_height="100dp"
+                   android:scaleType="centerCrop"
+                   android:src="@drawable/cat"
+                   app:riv_corner_radius="12dp" />
+            -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardViewUserImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            app:cardCornerRadius="60dp">
+            <ImageView
+                android:id="@+id/imgUserImage"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ute"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvNameUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toEndOf="@+id/cardViewUserImage"
+            android:text="Tên user"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvtimeregistration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvNameUser"
+            android:layout_marginStart="12dp"
+            android:layout_toEndOf="@+id/cardViewUserImage"
+            android:text="Thời gian đăng kí"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
