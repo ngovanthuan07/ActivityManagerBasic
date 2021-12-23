@@ -28,15 +28,15 @@ public class ViewPagerAdapter extends PagerAdapter {
     };
 
     private String titles[] ={
-            "Learn",
-            "Create",
-            "Enjoy"
+            "Nguyễn Minh Hiếu",
+            "Ngô Văn Thuần",
+            "Chào"
     };
 
     private String descs[] ={
-            "lorem  ipsum dolor contraint spaces dolor ipsum loremters termainal lorem ispsum contanirnts.",
-            "lorem  ipsum dolor contraint spaces dolor ipsum loremters termainal lorem ispsum contanirnts.",
-            "lorem  ipsum dolor contraint spaces dolor ipsum loremters termainal lorem ispsum contanirnts."
+            "",
+            "",
+            "Tất cả mọi người ^_^"
     };
 
 

@@ -37,6 +37,7 @@ public class ManagerActivityAdapter extends RecyclerView.Adapter<ManagerActivity
     public ManagerActivityAdapter(ArrayList<Activity> activityArrayList, IClickItemActivityManagerListener iClickItemActivityManagerListener){
         this.activityArrayList = activityArrayList;
         this.iClickItemActivityManagerListener = iClickItemActivityManagerListener;
+        this.activityArrayListOld = activityArrayList;
     }
 
 
@@ -76,7 +77,7 @@ public class ManagerActivityAdapter extends RecyclerView.Adapter<ManagerActivity
 
     @Override
     public int getItemCount() {
-        if(!activityArrayList.isEmpty()){
+        if(activityArrayList != null){
             return activityArrayList.size();
         }
         return 0;

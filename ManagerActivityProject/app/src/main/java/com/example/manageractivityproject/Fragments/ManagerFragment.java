@@ -136,7 +136,6 @@ public class ManagerFragment extends Fragment {
                 return false;
             }
         });
-
         super.onCreateOptionsMenu(menu, inflater);
 
     }
